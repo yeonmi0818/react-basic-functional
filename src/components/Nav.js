@@ -12,7 +12,7 @@ const Nav = (props) => {
 			<li key={item.id} onClick={(e)=>{
 				e.preventDefault();
 				props.onChangeMode(item.id);
-			}}><a href="">{item.title}</a></li>
+			}}><a href="#">{item.title}</a></li>
 		);
 		})
 		return (
